@@ -1,0 +1,172 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN/JCgDLKS0xNMdng5lQDIK",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/khushbuchauhan820-design/Data-Science-Session/blob/main/Practical%201.%20a%2Cb%20%26%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BwQVyeHMRaTV",
+        "outputId": "abc75d80-2857-42ac-a19d-c60a2d9b8a00"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "----- Personal Profile Details -----\n",
+            "Name: Khushbu Chauhan\n",
+            "Age: 18\n",
+            "City: Mumbai\n",
+            "Qualification: B.Sc. (Information Technology)\n",
+            "Profession: IT Deveploment\n"
+          ]
+        }
+      ],
+      "source": [
+        "name = \"Khushbu Chauhan\"\n",
+        "age = 18\n",
+        "city = \"Mumbai\"\n",
+        "qualification = \"B.Sc. (Information Technology)\"\n",
+        "profession = \"IT Deveploment\"\n",
+        "\n",
+        "print(\"----- Personal Profile Details -----\")\n",
+        "print(\"Name:\", name)\n",
+        "print(\"Age:\", age)\n",
+        "print(\"City:\", city)\n",
+        "print(\"Qualification:\", qualification)\n",
+        "print(\"Profession:\", profession)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Formatted Output Statements in Python\n",
+        "Name=\"Khushbu Chauhan\"\n",
+        "Age=18\n",
+        "Marks=80.5\n",
+        "Pi=3.14159265\n",
+        "\n",
+        "print(\"Uing f-string:\")\n",
+        "print(f\"Name:{Name}\")\n",
+        "print(f\"Age:{Age}\")\n",
+        "print(f\"Marks:{Marks}\")\n",
+        "print(f\"Pi :{Pi:.3f}\")\n",
+        "\n",
+        "print(\"\\nUsing format() method:\")\n",
+        "print(\"Name:{}\".format(Name))\n",
+        "print(\"Age:{}\".format(Age))\n",
+        "print(\"Marks:{}\".format(Marks))\n",
+        "print(\"Pi:{:.3f}\".format(Pi))\n",
+        "\n",
+        "print(\"\\nUsing % operator:\")\n",
+        "print(\"Name:%s\" % Name)\n",
+        "print(\"Age:%d\" % Age)\n",
+        "print(\"Marks:%.2f\" % Marks)\n",
+        "print(\"Pi:%.3f\" % Pi)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "I7xz0tOVUk_3",
+        "outputId": "7e8a932c-5341-497d-fc7e-c25e1dcef9fb"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Uing f-string:\n",
+            "Name:Khushbu Chauhan\n",
+            "Age:18\n",
+            "Marks:80.5\n",
+            "Pi :3.142\n",
+            "\n",
+            "Using format() method:\n",
+            "Name:Khushbu Chauhan\n",
+            "Age:18\n",
+            "Marks:80.5\n",
+            "Pi:3.142\n",
+            "\n",
+            "Using % operator:\n",
+            "Name:Khushbu Chauhan\n",
+            "Age:18\n",
+            "Marks:80.50\n",
+            "Pi:3.142\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Basic Arithmetic Operation\n",
+        "num1 = float(input(\"Enter the first number: \"))\n",
+        "num2 = float(input(\"Enter the second number: \"))\n",
+        "\n",
+        "addition = num1 + num2\n",
+        "subtraction = num1 - num2\n",
+        "multiplication = num1 * num2\n",
+        "division = num1 / num2\n",
+        "\n",
+        "print(\"nArithmetic Operation:\")\n",
+        "print(\"Addition:\", addition)\n",
+        "print(\"Subtraction:\", subtraction)\n",
+        "print(\"Multiplication:\", multiplication)\n",
+        "print(\"Division:\", division)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4kFbsLwYbKVG",
+        "outputId": "397f6b77-4e6b-44a7-eeda-4b849d5a2a43"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the first number: 4\n",
+            "Enter the second number: 8\n",
+            "nArithmetic Operation:\n",
+            "Addition: 12.0\n",
+            "Subtraction: -4.0\n",
+            "Multiplication: 32.0\n",
+            "Division: 0.5\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
